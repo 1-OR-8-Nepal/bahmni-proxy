@@ -41,7 +41,7 @@ jobs:
       needs: docker-build-publish
       env:
         ORG_NAME:  1-OR-8-Nepal
-        REPOSITORY_NAME: bahmni-docker
+        REPOSITORY_NAME: bahmni-proxy
         EVENT_TYPE: bahmni-proxy-publish-event
       steps:
         - name: Create repository_dispatch
